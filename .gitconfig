@@ -1,0 +1,7 @@
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --color=always
+	last = log -1 HEAD
+	st = status
